@@ -16,12 +16,12 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi Credentials
-#define WIFI_SSID "SpectrumSetup-76E2"
-#define WIFI_PASSWORD "internalfuel987"
+#define WIFI_SSID
+#define WIFI_PASSWORD 
 
 // Firebase Config
-#define FIREBASE_HOST "esp32-cloud-iot-sensor-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "AIzaSyBYrSqo192mwmfkqA579TEP86CKRYKrcYw" // API Key
+#define FIREBASE_HOST
+#define FIREBASE_AUTH 
 
 unsigned long sendDataPrevMillis = 0;
 const long sendInterval = 60000; // 15 seconds
